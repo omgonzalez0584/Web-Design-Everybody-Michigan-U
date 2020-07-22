@@ -1,0 +1,36 @@
+body{
+  font-size: 150%;
+  font-family: Arial;
+}
+
+h1{
+   color: grey;
+   background-color: #B3B3B3;
+}
+
+header{
+  text-align: center;
+  background-color: #666666;
+  font-family: Arial;
+}
+
+nav{
+  font-variant: small-caps;
+}
+
+h2{
+  background-color: #4dc3ff;
+  font-family: Arial;
+}
+
+footer{
+  background-color: #B3B3B3;
+}
+
+details{
+  font-style:italic;
+}
+
+summary{
+  font-style:  normal;
+}

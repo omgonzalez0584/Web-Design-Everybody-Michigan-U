@@ -1,0 +1,25 @@
+h1{
+  text-align: center;
+  color:#ffffff;
+}
+h2{
+  color:rgb(0, 0, 153);
+}
+
+header{
+  background-color: rgb(179, 179, 179);
+}
+
+.left{
+  visibility: hidden;
+  height: 20px;
+}
+
+.right{
+  background-color:rgb(140, 140, 140);
+}
+
+a{
+  background-color: rgb(230, 230, 230);
+  color: #000000;
+}
