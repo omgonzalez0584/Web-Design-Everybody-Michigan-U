@@ -1,0 +1,57 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  text-align: center;
+}
+
+.cabecera{
+  width:100%;
+}
+
+.barra{
+  width:100%;
+  background-color: rgb(38, 38, 38);
+  text-align: left;
+}
+
+.barra ul li{
+  display: inline-block;
+  width:100px;
+  padding:25px;
+}
+
+li a {
+  display:block;
+  margin: 0px auto;
+  text-decoration: none;
+  color:rgb(217, 217, 217);
+  font-family: Arial;
+  height: 100%;
+}
+
+li:hover{
+  background-color: rgb(64, 64, 64);
+}
+
+
+.seccion{
+  margin-top:2%;
+  width:60%;
+  text-align: left;
+}
+
+.seccion h2{
+  font-family: Arial;
+}
+
+.seccion p{
+  margin-top: 1%;
+  font-family: Arial;
+}
+
+.submenu{
+  display: none;
+}

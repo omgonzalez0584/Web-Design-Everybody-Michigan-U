@@ -1,0 +1,42 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  text-align: center;
+}
+
+.tabla{
+  margin: 0 auto;
+  width:500px;
+  height: 500px;
+  margin-top: 40px;
+  border-spacing: 0px;
+  border: 3px solid black;
+  border-radius:10px;
+}
+
+.tabla > td{
+  width:100%;
+  height: 100%;
+  padding: 10px;
+}
+
+tr:nth-child(even){
+  background-color: rgb(0, 255, 0);
+  font-family: Arial;
+}
+
+tr:nth-child(odd){
+  	background-color: rgb(217, 110, 38);
+    font-family: Verdana;
+}
+
+.tabla tr:first-child{
+  border-radius: 10px;
+}
+
+.tabla tr:nth-last-child(){
+  border-radius: 10px;
+}

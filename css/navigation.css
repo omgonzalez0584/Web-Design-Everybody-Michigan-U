@@ -1,0 +1,87 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color: rgb(230, 230, 230);
+  width:80%;
+  margin: 0 auto;
+}
+
+
+.cabecera{
+  margin:0 auto;
+  margin-top: 40px;
+  background-color: rgb(230, 230, 230);
+  width: 100%;
+  padding:5px;
+  border-radius: 10px;
+}
+
+.cabecera h1{
+  text-align: center;
+  font-size: 40px;
+  font-family: Arial;
+  padding:10px;
+}
+
+.barra{
+  float:left;
+  margin-top: 30px;
+  width:170px;
+  height:500px;
+  background-color: rgb(153, 179, 255);
+  border-radius: 3px;
+
+}
+
+.barra a{
+  display: block;
+  width: 100%;
+  padding:5px;
+  margin-top:30px;
+  text-decoration: none;
+  font-family: Arial;
+  color: rgb(115, 115, 115);
+}
+
+.barra a:hover{
+  color:black;
+  background-color: rgb(255, 255, 255);
+  width: 94%;
+}
+
+section{
+  float:left;
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+article{
+  margin-top: 20px;
+}
+
+.one p{
+  float: left;
+  width:250px;
+  height: 200px;
+  overflow: scroll;
+  background-color: rgb(153, 255, 153);
+}
+
+.two p{
+  float: left;
+  width: 250px;
+  height: 200px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  overflow: scroll;
+  background-color: rgb(255, 255, 128);
+}
+
+.active{
+  color:black;
+  background-color: rgb(255, 255, 255);
+}
