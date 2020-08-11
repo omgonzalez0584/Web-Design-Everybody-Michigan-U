@@ -1,0 +1,170 @@
+/*ESTRUCTURA DE CAJA */
+
+*{
+margin:0px;
+padding:0px;
+}
+
+body{
+  width: 1000px;
+  margin: 0px auto;
+}
+
+#caja1{
+  float: left;
+  width:65%;
+  height:250px;
+  background-image: url('../images/background2.jpg');
+  background-color:rgb(51, 255, 51);
+  opacity: 0.8;
+  text-align: center;
+}
+
+#caja1 header{
+  padding:90px;
+}
+
+h1{
+  font-size: 40px;
+  font-family: Arial;
+  color:rgb(230, 230, 230);
+}
+
+#caja2{
+  float:left;
+  width:35%;
+  height: 250px;
+  background-image: url('../images/background2.jpg');
+  background-color: rgb(0, 204, 153);
+  opacity: 0.8;
+  text-align: center;
+}
+
+#caja2 a{
+  margin-top: 80px;
+  display: inline-block;
+  text-decoration: none;
+  padding:20px;
+  color:rgb(230, 230, 230);
+  font-size: 30px;
+  font-family: arial;
+  background-color:rgb(38, 115, 77);
+}
+
+#caja3{
+  box-sizing: border-box;
+  float: left;
+  width:65%;
+  height: 437px;
+  background-color:rgb(255, 255,255);
+  opacity: 0.6;
+  text-align: center;
+
+}
+
+#caja4{
+  box-sizing: border-box;
+  float:left;
+  width:35%;
+  height:437px;
+  background-color:rgb(230, 255, 238);
+  opacity: 0.8;
+  text-align: center;
+}
+
+article{
+  text-align: left;
+
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  width:90%;
+}
+
+#caja5{
+  box-sizing: border-box;
+  float: left;
+  width:65%;
+  background-color:rgb(255,255,255);
+  opacity: 0.8;
+  text-align: center;
+}
+
+#caja6{
+  box-sizing: border-box;
+  float:left;
+  width:35%;
+  height: 381px;
+  background-color:rgb(230, 255, 238);
+  opacity: 0.8;
+  text-align: center;
+}
+
+#caja7{
+  clear:both;
+  width:100%;
+  height: 150px;
+  opacity: 0.7;
+  background-color:rgb(217, 217, 217);
+  text-align: center;
+}
+
+footer{
+  width:100%;
+  height: 100px;
+  background-color: rgb(255,255,255);
+  margin-bottom: 30px;
+}
+
+/*Estilos a los elementos HTML*/
+
+#caja4 li{
+  display:block;
+  list-style: none;
+  margin-top:45px;
+  font-family: arial;
+  color:black;
+}
+
+#caja4  a{
+  display: inline-block;
+  text-decoration: none;
+  color:rgb(0,0,0);
+  font-size:20px;
+  width: 100%;
+  padding:20px;
+}
+
+#caja4 a:hover{
+  width:88%;
+  background-color: rgb(38, 115, 38);
+}
+p{
+  font-family: Arial;
+  color:black;
+}
+
+h2{
+  font-family: arial;
+  color:black;
+}
+
+#caja7 img{
+  display: inline-block;
+  margin-left: 50px;
+  margin-top:40px;
+  width:30px;
+  height:30px;
+}
+
+#caja7 h2{
+  padding: 5px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#caja7:hover{
+background-color:rgb(133, 173, 173);
+opacity: 0.7;
+font-size:35px;
+}
