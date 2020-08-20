@@ -1,0 +1,286 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  background-color:rgb(0, 0,0);
+}
+
+#bigbox{
+  width:90%;
+  margin:0 auto;
+  margin-top: 1%;
+  background-color:rgb(0, 153, 204);
+
+}
+
+#bigbox:hover{
+  box-shadow: rgba(255,255,255,0.4) 1px 1px 1px 1px;
+  border-radius: 5px;
+
+}
+/*Estilos de la caja 1*/
+#caja1{
+  width:100%;
+  height:74px;
+  background-color:rgb(0, 153, 204);
+  font-family: Bangers, Arial, monospace;
+
+}
+
+p{
+  margin-top:10px;
+  font-family: Bangers , Arial,monospace;
+  font-size: 98%;
+  color: rgb(0, 153, 204);
+  margin:0.5%;
+  padding:1%;
+
+}
+h3{
+  margin-top:5px;
+  color:rgb(0, 153, 204);
+  font-size: 20px;
+  font-family: Bangers;
+}
+
+#caja1 header{
+ float:left;
+ width:30%;
+}
+
+#caja1 nav{
+  float:left;
+  width:60%;
+  text-align: center;
+}
+
+header h1{
+  float:left;
+  padding:3%;
+  color:rgb(255,255,255);
+  font-weight: 900;
+  font-size: 300%;
+}
+
+nav a{
+  display:inline-block;
+  padding:3.2%;
+  width:14.8%;
+  margin-left:0.2%;
+  margin-right:0.2%;
+  text-decoration: none;
+  color:rgb(255, 255,255);
+  font-size:130%;
+  font-weight: 900;
+  font-family:Bangers, Arial, monospace;
+
+}
+nav a:hover{
+background-color:rgb(0,0,0);
+}
+#link1{
+background-color: rgb(0,0,0);
+}
+
+/*Estilos de la caja 2*/
+#caja2{
+  width:100%;
+  height: 100px;
+  background-color: rgb(255,255,255);
+  background-image: url('../images/banner_2.png');
+}
+
+
+
+#titulo2 h2{
+  display: block;
+  color:rgb(0,0,0);
+  font-family: Bangers, Arial, monospace;
+  font-weight: 900;
+  font-size: 30px;
+  padding:40px;
+  margin-left: 20px;
+}
+
+#caja3{
+  margin: auto;
+  margin-top:40px;
+  width:90%;
+  height: 600px;
+}
+
+#caja3 nav{
+
+}
+
+#titulo3{
+  color:rgb(0,0,0);
+  font-family: Bangers ,Arial, monospace;
+  font-weight: 900;
+  font-size: 140%;
+  text-align: left;
+
+}
+
+.comics{
+  float:left;
+  margin-top:30px;
+  margin-left:30px;
+  margin-bottom: 40px;
+  width:30%;
+  height:200px;
+  background-color: rgb(255,255,255);
+}
+
+#caja3 .comics:hover{
+  box-shadow: rgba(230, 230, 230,0.4) 3px 3px 3px 3px;
+}
+
+#caja3 img{
+  width:100%;
+  height:200px;
+}
+
+#caja4{
+  clear:both;
+  margin: auto;
+  margin-top:40px;
+  width:90%;
+  height:620px;
+}
+
+#titulo4{
+  color:rgb(0,0,0);
+  font-family: Bangers, Arial, monospace;
+  font-weight: 900;
+  margin-bottom: 1.6%;
+  font-size: 140%;
+}
+
+#caja4 .noticias{
+  float:left;
+  width:44.7%;
+  height:auto;
+  margin-right:30px;
+  margin-bottom: 60px;
+  margin-left:20px;
+  background-color:rgb(0,0,0);
+  text-align: left;
+}
+
+#caja4 .noticias:hover{
+  box-shadow: rgba(230, 230, 230,0.4) 3px 3px 3px 3px;
+}
+
+#caja5{
+  clear: both;
+  width: 90%;
+  height: 390px;
+  margin:0px auto;
+  margin-top:3%;
+}
+
+#titulo5{
+  clear: both;
+  color:rgb(0, 0, 0);
+  font-family: Bangers, Arial, monospace;
+  font-weight: 900;
+  font-size:190%;
+  width:100%;
+  margin:0 auto;
+  margin-bottom:3%;
+}
+
+.ranking{
+  float:left;
+  width:32.8%;
+  height:55px;
+  margin-left:0.3%;
+  background-color:rgb(0, 153, 204);
+}
+
+.ranking img{
+  float: left;
+  display: inline-block;
+  width:13%;
+  height:50px;
+}
+
+.ranking a{
+  float: left;
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+}
+
+.ranking h4{
+  float: left;
+  color:rgb(255,255,255);
+  padding:3%;
+  margin-top: 0.8%;
+  font-size: 120%;
+  font-weight: 900;
+  font-family: Bangers, Arial, monospace;
+}
+
+.ranking:hover{
+  box-sizing: border-box;
+  box-shadow: rgba(230, 230, 230,0.4) 1px 1px 1px 1px;
+  padding:1px;
+  border-radius: 2px;
+}
+
+
+footer{
+  margin: auto;
+  margin-top: 40px;
+  width:100%;
+  height: 120px;
+  text-align: center;
+  background-color:rgb(0, 153, 204);
+}
+
+small{
+  margin:auto;
+  display:block;
+  padding:1%;
+  font-size: 170%;
+  font-family: Bangers, Arial, monospace;
+}
+
+figure{
+  text-align: center;
+}
+
+figcaption{
+  font-family: Bangers, Arial, monospace;
+  font-weight: 900;
+  font-size:86%;
+}
+
+.iconos{
+  display:inline-block;
+  width:50px;
+  height: 50px;
+  margin-right:7%;
+  margin-left: 7%;
+
+}
+
+.head_icons{
+  float:left;
+  display:inline-block;
+  width:40px;
+  height:40px;
+  padding:1%;
+  margin-left:4%;
+  margin-right: 1%;
+  margin-top:2%;
+}
+
+@font-face {
+    font-family:'Bangers';
+    src:url('Bangers-Regular.ttf');
+}
