@@ -2,3 +2,62 @@
   margin:0px;
   padding:0px;
 }
+
+body{
+  background-color: rgb(255, 255, 0);
+}
+
+.contenedor{
+  width:80%;
+  margin:auto;
+  border: 1px solid yellow;
+  background-color: rgb(0, 0, 0);
+}
+
+.cabecera{
+  border: 1px solid yellow;
+}
+
+.cabecera h1{
+  color:rgb(255, 255, 0);
+}
+
+.seccion{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  box-sizing: border-box;
+  float:left;
+  width:70%;
+  height: auto;
+  border:1px solid  yellow;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.seccion p{
+  color:rgb(255, 255, 0);
+
+}
+
+.barra{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  box-sizing: border-box;
+  float:left;
+  width: 30%;
+  border:1px solid yellow;
+}
+
+.barra ul{
+  color:rgb(255, 255, 0);
+}
+
+.pie{
+  margin-top:5%;
+  margin-bottom: 3%;
+  clear:both;
+  border:1px solid yellow;
+}
