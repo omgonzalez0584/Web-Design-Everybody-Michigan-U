@@ -1,0 +1,49 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  background-color:rgb(0,0,0);
+}
+
+.jumbotron{
+  background-color:rgb(0, 172, 230);
+  background-image:linear-gradient(rgb(0, 172, 230),rgb(102, 217, 255));
+  text-align:center;
+}
+
+#caja1{
+  margin-bottom:1%;
+  background-color:rgb(0, 172, 230);
+
+}
+
+#caja2{
+  background-color:rgb(0, 172, 230);
+  margin-bottom:2%;
+}
+
+#caja3{
+  background-color:rgb(0, 230, 184);
+  margin-bottom:2%;
+}
+
+div{
+  border:1px  black;
+}
+
+#c4 > div{
+  background-color:rgb(179, 224, 255);
+  margin-left:0.1%;
+}
+
+#c4 > div:hover{
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px;
+  background-color: rgb(0, 172, 230);
+}
+
+nav{
+  margin-bottom:1%;
+}
